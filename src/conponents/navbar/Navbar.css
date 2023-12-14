@@ -1,0 +1,52 @@
+.container{
+    width: 90%;
+    margin: auto;
+    display: block;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    width: 250px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+nav ul li a{
+    transition: 0.3s ease-in-out;
+}
+nav ul li:hover a{
+    color: var(--themeColor);
+    text-decoration: underline;
+}
+nav ul li a:active{
+    color: var(--themeColor);
+    text-decoration: underline;
+    transform: scale(1.5);
+}
+.hambarger{
+    display: none;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+.hambarger svg{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* Responsive */
+@media only screen and (max-width: 768px){
+    nav{
+        display: none;
+    }
+    .hambarger{
+        display: block;
+    }
+}
