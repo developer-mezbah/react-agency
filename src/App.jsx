@@ -2,6 +2,7 @@
 import './App.css'
 import { Banner } from './conponents/banner/Banner'
 import Navbar from './conponents/navbar/Navbar'
+import Services from './conponents/services/Services'
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
     <>
       <Navbar/>
       <Banner/>
+      <Services/>
     </>
   )
 }
