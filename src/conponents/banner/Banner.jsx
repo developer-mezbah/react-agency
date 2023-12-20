@@ -20,10 +20,16 @@ export const Banner = () => {
         className="banner-swipper"
       >
         <SwiperSlide>
-          <SlideItem />
+          <SlideItem title={"Grow your brand through digital"}/>
         </SwiperSlide>
         <SwiperSlide>
-          <SlideItem />
+          <SlideItem title={"MERN development"} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <SlideItem title={"MERN development"} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <SlideItem title={"MERN development"} />
         </SwiperSlide>
         
       </Swiper>

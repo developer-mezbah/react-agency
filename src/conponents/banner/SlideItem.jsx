@@ -1,12 +1,12 @@
 import "./Banner.css";
 import banner from "../../assets/images/banner.png";
 
-const SlideItem = () => {
+const SlideItem = (props) => {
   return (
     <>
     <div className="banner">
       <div className="banner-content">
-        <h1>Grow your brand through digital</h1>
+        <h1>{props.title}</h1>
         <p>
           If the path is beautiful, let us not ask where it leads. my religion
           is very simple. my religion is kindness. each of us has within our

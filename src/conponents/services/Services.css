@@ -1,5 +1,6 @@
-.services{
+.services {
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 .services h1{
     text-align: right;
@@ -62,6 +63,9 @@
 
 /* Responsive */
 @media (max-width: 768px){
+    .services h1{
+        font-size: 35px;
+    }
     .all-services{
         grid-template-columns: repeat(1, 1fr);
     }
