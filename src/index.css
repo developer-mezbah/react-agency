@@ -15,6 +15,7 @@ body{
   --dark: #000;
   --text-dark: #222a41;
   --light: #ffffff;
+  --gray: rgba(128, 128, 128, 0.577);
 }
 .btn {
   color: var(--light);
@@ -60,7 +61,6 @@ h1 {
 
 h2 {
   color: var(--dark);
-  text-align: right;
   font-family: Source Sans Pro;
   font-size: 48px;
   font-style: normal;
